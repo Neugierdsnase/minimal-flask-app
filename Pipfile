@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 flask = "*"
 gunicorn = "*"
-flask-misaka = "*"
 
 [dev-packages]
 "autopep8" = "*"

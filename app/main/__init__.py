@@ -11,8 +11,3 @@ def index():
 @main.route('/about')
 def about():
     return render_template('about.jinja')
-
-
-@main.route('/markdown')
-def markdown():
-    return render_template('markdown.jinja')
